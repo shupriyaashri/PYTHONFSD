@@ -1,8 +1,33 @@
+
 .heading{
-    font-size:2h;
-    color:brown;
+
+    color:slateblue;
+    font-family: 'Alumni Sans Inline One', cursive;
+    width: fit-content;
+    box-shadow: 1px 3px 10px;
+
 }
-.heading1{
-    fond-size:3h;
-    color:aqua;
+.head{
+    color:palevioletred;
+    border: 0000rem;
+}
+.flex
+{
+    color: blueviolet;
+   display: flex;
+   flex-direction:row;
+   justify-content: space-evenly;
+   font-style: italic;
+   font-size:x-large;
+}
+
+.hi{
+  height: 5vh;
+  width: 5vm;
+  background-color: aquamarine; 
+  color:black;
+}
+
+.name{
+    text-align: center;
 }
