@@ -1,0 +1,17 @@
+.container {
+    background-color:whitesmoke;
+    border: 20px solid gainsboro;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 30vw;
+    margin: auto;
+  }
+  .colour{
+    forced-color-adjust: rgb(159, 154, 154);
+    font-size: small;
+  }
+  .font{
+    font-size: x-large;
+  }

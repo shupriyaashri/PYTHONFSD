@@ -1,0 +1,32 @@
+DROP DATABASE IF EXISTS `sql_q1`;
+CREATE DATABASE `sql_q1`;
+USE `sql_q1`;
+
+
+CREATE TABLE `scores` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `score` float(4,2) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+INSERT INTO `scores` VALUES (1,80.00);
+INSERT INTO `scores` VALUES (2,90.00);
+INSERT INTO `scores` VALUES (3,80.50);
+INSERT INTO `scores` VALUES (4,70.00);
+INSERT INTO `scores` VALUES (5,80.00);
+INSERT INTO `scores` VALUES (6,99.00);
+
+
+
+SELECT * FROM sql_q1.scores;
+use sql_q1;
+select 
+    Score,
+    (select 
+            COUNT(distinct Score)
+        from
+            Scores s2
+        where
+            s2.Score >= s1.Score) as 'rank'
+from
+    Scores s1
+order by s1.Score desc

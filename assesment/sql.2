@@ -1,0 +1,15 @@
+DROP DATABASE IF EXISTS `sql_q2`;
+CREATE DATABASE `sql_q2`;
+USE `sql_q2`;
+
+
+CREATE TABLE `person` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `email` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+INSERT INTO `person` VALUES (1,'john@gmail.com');
+INSERT INTO `person` VALUES (2,'bob@gmail.com');
+INSERT INTO `person` VALUES (3,'john@gmail.com');
+INSERT INTO `person` VALUES (4,'en@gmail.com');
+

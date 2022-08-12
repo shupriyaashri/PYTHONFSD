@@ -1,0 +1,21 @@
+DROP DATABASE IF EXISTS `sql_q3`;
+CREATE DATABASE `sql_q3`;
+USE `sql_q3`;
+
+
+CREATE TABLE `world` (
+`name`varchar(100) ,  
+  `continent` varchar(50) ,
+  `area` int(20) ,
+  `population` int(20) ,
+    `gdp` int(20),
+  PRIMARY KEY (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+INSERT INTO `world` VALUES ('afghanistan','asia',652230,25500100,203430000000);
+INSERT INTO `world` VALUES ('albania','europe',23748,2831741,12960000000);
+INSERT INTO `world` VALUES ('algeria','africa',2831741,37100000,1886810000000);
+INSERT INTO `world` VALUES ('andorra','europe',468,78115,3712000000);
+INSERT INTO`world` VALUES ('angola','africa',1246700,20609294,100990000000);
+
+
+
