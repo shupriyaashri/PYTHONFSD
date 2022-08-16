@@ -1,33 +1,169 @@
-
-.heading{
-
-    color:slateblue;
-    font-family: 'Alumni Sans Inline One', cursive;
-    width: fit-content;
-    box-shadow: 1px 3px 10px;
-
+.card-container {
+    height: 30vh;
+    width: 40vw;
+    margin: 2vh;
+    box-shadow: 0 0 10px #00000055;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 2fr 1fr;
+    background-color: #eceae8;
+    border-radius: 2vh;
+    
+  }.heading {
+  color: slateblue;
+  font-family: "Alumni Sans Inline One", cursive;
+  width: fit-content;
+  box-shadow: 1px 3px 10px;
 }
-.head{
-    color:palevioletred;
-    border: 0000rem;
+.head {
+  color: palevioletred;
+  border: 0000rem;
 }
-.flex
-{
-    color: blueviolet;
-   display: flex;
-   flex-direction:row;
-   justify-content: space-evenly;
-   font-style: italic;
-   font-size:x-large;
+.flex {
+  color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-style: italic;
+  font-size: x-large;
 }
 
-.hi{
+.hi {
   height: 5vh;
   width: 5vm;
-  background-color: aquamarine; 
-  color:black;
+  background-color: aquamarine;
+  color: black;
 }
 
-.name{
-    text-align: center;
+.name {
+  text-align: center;
+}
+
+.simple-button {
+  min-height: 5vh;
+  width: fit-content;
+  font-family: "Poppins", sans-serif;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh 2vw 1vh 2vw;
+  color: white;
+  font-size: 2vh;
+  border-radius: 1vh;
+  cursor: pointer;
+  margin: 2vh;
+  box-shadow: 5px 5 px 10px #00000055;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-layout {
+  min-height: 5vh;
+  width: fit-content;
+  background-color: white;
+  padding: 1vh 2vw 1vh 2vw;
+  color: blue;
+  border: 2px solid blue;
+  font-size: 2vh;
+  border-radius: 1vh;
+  cursor: pointer;
+  margin: 1vh;
+  font-weight: 600;
+}
+.hor {
+  display: flex;
+  flex-direction: row;
+}
+.s1-row {
+  display: flex;
+  flex-direction: row;
+}
+.s1-e1 {
+  height: 5vh;
+  background-color: aqua;
+  flex-grow: 1;
+}
+.s1-e2 {
+  height: 5vh;
+  background-color: black;
+  flex-grow: 2;
+}
+.s2-e1 {
+  height: 5vh;
+  background-color: blueviolet;
+  flex-grow: 1;
+}
+.s3-e2 {
+  height: 5vh;
+  background-color: red;
+  flex-grow: 1;
+}
+
+.s3-e1 {
+  height: 5vh;
+  background-color: green;
+  flex-grow: 1;
+}
+.s3-e3 {
+  height: 5vh;
+  background-color: yellow;
+  flex-grow: 1;
+}
+
+.grid{
+ margin: 2vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10vh 10vh 10vh;
+}
+.cell-1 {
+  background-color: yellowgreen;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+.cell-2 {
+  background-color: skyblue;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1;
+}
+.cell-3 {
+  background-color: red;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.cell-4 {
+  background-color: blue;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+.cell-5 {
+  background-color: violet;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span1;
+}
+.cell-6 {
+  background-color: pink;
+  grid-column: 3 / span 1;
+  grid-row: 3 / span1;
+
+}
+.card-container {
+  height: 30vh;
+  width: 40vw;
+  margin: 2vh;
+  box-shadow: 0 0 10px #00000055;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1vh 1vh 1vh;
+  background-color: #eceae8;
+  border-radius: 2vh;
+
+  
 }
