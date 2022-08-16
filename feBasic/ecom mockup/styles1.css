@@ -1,0 +1,53 @@
+.web-header{
+    height: 8vh;
+    display: flex;
+    flex-direction:  row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+.hor-align{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+.text-mar{
+    margin: 0 0 0 3vh;
+}
+.search-bar{
+    height: 6vh;
+    width: 40vw;
+    background-color: rgb(189, 183, 183);
+    border-radius: 2vh;
+    margin: 0 10vw 0 10vw;
+}
+
+.icon{
+    height: 3vh;
+    width: 3vh;
+}
+.column{
+    display: flex;
+    flex-direction:column;
+
+}
+.row{
+    display: flex;
+    flex-direction:row;
+
+}
+.icon1{
+    height: 200vh;
+    width: 200vh;
+}
+
+.bar{
+    height: 4vh;
+    width: 9vw;
+    background-color: rgb(248, 244, 244);
+    border-radius: 4vh;
+    padding: 1vh 1.4vw 1.5vh 4vw;
+    box-shadow: 0 0 10px #88868655;
+}

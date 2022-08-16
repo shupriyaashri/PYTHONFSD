@@ -10,6 +10,7 @@ CREATE TABLE `Emp` (
     `Salary` int(6),
     `managerID` int(4),
     PRIMARY KEY (`personID`)
+    
 ) 
 ENGINE=INNODB AUTO_INCREMENT=5 DEFAULT CHARSET=UTF8MB4 COLLATE = UTF8MB4_0900_AI_CI;
                      insert into Emp (personID,personName,Salary,managerID) values(1,'joe',70000,3),(2,'Henry',80000,4),(3,'Sam',60000,Null),
